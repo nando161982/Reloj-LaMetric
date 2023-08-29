@@ -18,13 +18,13 @@
 /////////////////////////////////////////////////////////
 ////////////VARIABLES QUE TIENES QUE CAMBIAR/////////////
 /////////////////////////////////////////////////////////
-#define WLAN_SSID ""
-#define WLAN_PASS ""
-#define AIO_USERNAME ""
-#define AIO_KEY ""
-const String CITY = "";
-const String COUNTRY_CODE = "";
-#define OP_KEY ""
+#define WLAN_SSID "MiFibra-24G_EXT"
+#define WLAN_PASS "7XzQv5HZ"
+#define AIO_USERNAME "nando161982"
+#define AIO_KEY "vw#KRye2Rq9-JZ@"
+const String CITY = "Mataro";
+const String COUNTRY_CODE = "ES";
+#define OP_KEY "7b2949181f6f447414ff5fc1434681e9"
 
 
 #define AIO_SERVER "io.adafruit.com"
@@ -34,9 +34,9 @@ const String COUNTRY_CODE = "";
 #define LED_PIN D8
 #define COLOR_ORDER GRB
 #define LEDS_TYPE WS2812B
-#define BRIGHTNESS 150
-#define MATRIX_WIDTH 36
-#define MATRIX_HEIGHT -8
+define BRIGHTNESS 30
+define MATRIX_WIDTH 32
+define MATRIX_HEIGHT -8
 #define NUM_LEDS abs(MATRIX_WIDTH*MATRIX_HEIGHT)
 #define MATRIX_TYPE HORIZONTAL_ZIGZAG_MATRIX
 
